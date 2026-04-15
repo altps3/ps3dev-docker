@@ -6,6 +6,12 @@
   toolchain ready to be used for homebrew development.
 
  ====================
+  If you want to just use my image to build
+ ====================
+
+   docker run --rm -v `pwd`:/build ghcr.io/altps3/ps3dev:latest make
+
+ ====================
   How do I build it?
  ====================
 
